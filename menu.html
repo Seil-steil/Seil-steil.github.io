@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Menu</title>
+    <style>
+        ul.css-menu {
+            list-style:none;
+            border-bottom: 1px #888899 solid;
+            padding-bottom: 10px;
+        }
+        ul.css-menu li {
+            display: inline;
+            margin-right: 5px;
+        }
+        ul.css-menu li a {
+            color: #888899;
+            text-decoration: none;
+            background: #f7f7f9;
+            border: 1px #bbbbcc solid;
+            border-bottom: none;
+            padding: 10px 14px;
+        }
+        ul.css-menu li a.selected{
+            color: #535366;
+            background: #ffffff;
+            border: 1px #888899 solid;
+            border-bottom: 1px #ffff solid;
+            padding: 14px 14px 10px 14px;
+        }
+        ul.css-menu li a:hover{
+            padding:14px 14px 10px 14px;
+            background: #7a6ad3;
+        }
+    </style>
+</head>
+<body>
+    <ul class="css-menu">
+        <li> <a href="#"> Главная </a> </li>
+        <li> <a href="#"> О себе </a> </li>
+        <li> <a href="#" class="selected"> Информация </a> </li>
+        <li> <a href="#"> Справочник </a> </li>
+    </ul>
+</body>
+</html>
